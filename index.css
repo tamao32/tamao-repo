@@ -1,0 +1,102 @@
+body {
+  font-family: "serif";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list li{
+   float: left;
+   padding: 33px 20px;
+}
+
+.copy-container h1 {
+  color:blue;
+}
+
+.copy-container h4{
+  border-bottom: 2px solid #dee7ec;
+}
+
+textarea {
+  width: 40%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #CCFFFF;
+
+}
+.info p3{
+  border-top: 3px solid #dee7ec;
+  color: red;
+ }
+
+.info p4{
+  font-size: 20px;
+    border-bottom: : 3px solid #dee7ec;
+}
+
+/* 入力エラーメッセージ */
+.error_message li{
+  color:red;
+}
+
+/* 返信ページ */
+.thanks-message h3{
+  border-bottom: 3px solid #dee7ec;
+  color:green;
+}
+
+input{
+appearance: none;
+-webkit-appearance: none;
+padding: 10px 20px;
+color:#000080	;
+font-size: 86%;
+line-height: 1.0em;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+background-color: #CCFFFF;
+}
+
+input[type=submit]:hover,
+button:hover {
+background-color:#44FFFF;
+}
+
+/* 返信内容区切り線 */
+<hr color="red" width="20%" size="5">
+
+.paging_nb{
+    margin-right: 10px;
+}
+
+.paging_nb2{
+    margin-right: 10px;
+}
+
+.article{
+  background-color: red;
+}
+
+.page_error{
+  font-size: 50px;
+}
