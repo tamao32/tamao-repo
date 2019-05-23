@@ -1,6 +1,6 @@
 <?php
  $sentId = $_GET["sent"];
-// タイムゾーン設定
+// タイムゾーン設定します
 date_default_timezone_set('Asia/Tokyo');
 
 
