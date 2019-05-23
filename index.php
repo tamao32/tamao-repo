@@ -6,10 +6,10 @@ date_default_timezone_set('Asia/Tokyo');
 // 入力エラーメッセージ処理
 if(!empty($_POST["submit"])){
 	if(empty($_POST["name"])){
-		$error_message[] = "投稿者名を入力してください。";
+		$error_message[] = "投稿者名を入力してくださいね。";
 	}
 	if(empty($_POST["message"])){
-		$error_message[] = "ひと言メッセージを入力してください。";
+		$error_message[] = "ひと言メッセージを入力してくださいね。";
 	}
 }
 
